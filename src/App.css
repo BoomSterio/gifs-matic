@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .app {
+    padding: 0;
+  }
+}
