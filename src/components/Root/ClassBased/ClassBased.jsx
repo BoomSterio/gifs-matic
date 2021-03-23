@@ -48,7 +48,7 @@ class ClassBased extends React.Component {
                     <Preloader/>
                     :
                     <div className={s.gifs}>
-                        {this.state.gifs.map((g, i) => <img key={i} className={s.img}
+                        {this.state.gifs.map((g) => <img key={g.id} className={s.img}
                                                             src={g.images.fixed_height.url}
                                                             alt={'gif'}/>)}
                     </div>}

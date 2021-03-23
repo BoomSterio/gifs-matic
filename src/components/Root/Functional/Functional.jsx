@@ -42,7 +42,7 @@ const Functional = ({requestData}) => {
                 <Preloader/>
                 :
                 <div className={s.gifs}>
-                    {gifs.map((g, i) => <img key={i} className={s.img}
+                    {gifs.map((g) => <img key={g.id} className={s.img}
                                                         src={g.images.fixed_height.url} alt={'gif'}/>)}
                 </div>}
         </div>
