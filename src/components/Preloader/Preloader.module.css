@@ -1,13 +1,13 @@
 .preloader {
-    margin: 10px;
-    animation: spin 1s infinite;
+  margin: 10px;
+  animation: spin 1s infinite;
 }
 
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
